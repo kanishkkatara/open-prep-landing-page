@@ -3,12 +3,12 @@ import { Users, Globe, Star, TrendingUp } from 'lucide-react';
 const stats = [
   {
     icon: <Users className="w-10 h-10 text-blue-600" />,
-    value: "10,000+",
+    value: "500+",
     label: "Students"
   },
   {
     icon: <Globe className="w-10 h-10 text-blue-600" />,
-    value: "42",
+    value: "4",
     label: "Countries"
   },
   {

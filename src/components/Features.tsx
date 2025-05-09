@@ -9,6 +9,11 @@ import {
 
 const features = [
   {
+    icon: <Target className="w-10 h-10 text-blue-600" />,
+    title: "AI Tutoring",
+    description: "Get personalized, real-time tutoring powered by AI, guiding you step-by-step through challenging problems."
+  },
+  {
     icon: <Brain className="w-10 h-10 text-blue-600" />,
     title: "AI-Powered Personalization",
     description: "Our AI analyzes your strengths and weaknesses to create a customized study plan that evolves as you learn."
@@ -24,19 +29,19 @@ const features = [
     description: "Focus only on areas that need improvement, cutting down study time by up to 40% compared to traditional methods."
   },
   {
-    icon: <BarChart2 className="w-10 h-10 text-blue-600" />,
-    title: "Performance Analytics",
-    description: "Track your progress with detailed analytics and insights to understand your learning trajectory."
-  },
-  {
-    icon: <Target className="w-10 h-10 text-blue-600" />,
-    title: "Score Prediction",
-    description: "Our AI predicts your GMAT score based on your performance, helping you gauge your readiness."
-  },
-  {
     icon: <Lightbulb className="w-10 h-10 text-blue-600" />,
     title: "Conceptual Clarity",
     description: "Get clear, concise explanations for every question, ensuring deep understanding of core concepts."
+  },
+  {
+    icon: <BarChart2 className="w-10 h-10 text-blue-600" />,
+    title: "Performance Analytics",
+    description: "Track your progress with detailed analytics and insights to understand your learning trajectory.",
+    label: (
+      <span className="absolute top-0 right-0 bg-yellow-200 text-yellow-800 text-xs font-semibold px-2 py-1 rounded-full mt-2 mr-2">
+        Coming Soon
+      </span>
+    )
   }
 ];
 
@@ -55,10 +60,11 @@ const Features = () => {
           {features.map((feature, index) => (
             <div 
               key={index}
-              className="bg-white p-8 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-300"
+              className="bg-white p-8 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-300 relative"
               data-aos="fade-up"
               data-aos-delay={index * 100}
             >
+              {feature.label}
               <div className="mb-5 p-2 rounded-full bg-blue-50 inline-block">
                 {feature.icon}
               </div>

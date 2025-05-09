@@ -6,14 +6,16 @@ const testimonials = [
     id: 1,
     name: "Jessica Chen",
     position: "Harvard Business School, 2024",
+    scoreImprovement: 130,
     image: "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg",
-    content: "Open Prep helped me boost my GMAT score by 130 points in just 6 weeks. The AI-powered approach identified my weak areas instantly and created a personalized study plan that saved me countless hours.",
+    content: "Open Prep helped me boost my GMAT score by 130 points in just 6 weeks. The AI-powered approach identified my weak areas instantly that saved me countless hours.",
     stars: 5
   },
   {
     id: 2,
     name: "Michael Rodriguez",
     position: "Wharton School, 2023",
+    scoreImprovement: 120,
     image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
     content: "After trying multiple prep courses without much improvement, Open Prep's adaptive learning system made all the difference. I improved my quant score from the 60th to the 90th percentile in just a month.",
     stars: 5
@@ -22,6 +24,7 @@ const testimonials = [
     id: 3,
     name: "Aisha Patel",
     position: "INSEAD, 2024",
+    scoreImprovement: 140,
     image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg",
     content: "The personalized approach of Open Prep is game-changing. Their AI tutor identified patterns in my mistakes that I couldn't see myself, allowing me to focus precisely on what I needed to improve.",
     stars: 5
@@ -30,26 +33,27 @@ const testimonials = [
     id: 4,
     name: "David Kim",
     position: "Stanford GSB, 2023",
+    scoreImprovement: 110,
     image: "https://images.pexels.com/photos/1300402/pexels-photo-1300402.jpeg",
     content: "I was skeptical about AI tutoring at first, but Open Prep exceeded my expectations. The platform adapted to my learning style and schedule, making my prep much more efficient than traditional methods.",
     stars: 4
   },
-  {
-    id: 5,
-    name: "Sarah Johnson",
-    position: "Columbia Business School, 2024",
-    image: "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg",
-    content: "Open Prep transformed my GMAT journey. The analytics provided clear insights into my progress, and the adaptive question bank ensured I was always challenged at the right level.",
-    stars: 5
-  },
-  {
-    id: 6,
-    name: "Omar Hamad",
-    position: "London Business School, 2023",
-    image: "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg",
-    content: "As someone with a busy work schedule, Open Prep's time-efficient approach was exactly what I needed. I achieved my target score while studying just 1-2 hours daily.",
-    stars: 5
-  }
+  // {
+  //   id: 5,
+  //   name: "Sarah Johnson",
+  //   position: "Columbia Business School, 2024",
+  //   image: "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg",
+  //   content: "Open Prep transformed my GMAT journey. The analytics provided clear insights into my progress, and the adaptive question bank ensured I was always challenged at the right level.",
+  //   stars: 5
+  // },
+  // {
+  //   id: 6,
+  //   name: "Omar Hamad",
+  //   position: "London Business School, 2023",
+  //   image: "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg",
+  //   content: "As someone with a busy work schedule, Open Prep's time-efficient approach was exactly what I needed. I achieved my target score while studying just 1-2 hours daily.",
+  //   stars: 5
+  // }
 ];
 
 const Testimonials = () => {
@@ -135,7 +139,7 @@ const Testimonials = () => {
                     />
                     <div>
                       <h4 className="font-bold text-gray-900">{testimonial.name}</h4>
-                      <p className="text-sm text-gray-600">{testimonial.position}</p>
+                      <p className="text-sm text-gray-600">{testimonial.scoreImprovement} point improvement in GMAT FE</p>
                     </div>
                   </div>
                   
