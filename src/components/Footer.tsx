@@ -51,28 +51,28 @@ const Footer = () => {
           <div>
             <h4 className="text-white text-lg font-semibold mb-4">Legal</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Terms & Conditions</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Refund Policy</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Cancellation Policy</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Cookie Policy</a></li>
+              <li><a href="/terms-and-conditions" className="hover:text-blue-400 transition-colors">Terms & Conditions</a></li>
+              <li><a href="/privacy-policy" className="hover:text-blue-400 transition-colors">Privacy Policy</a></li>
+              <li><a href="/refund-policy" className="hover:text-blue-400 transition-colors">Refund Policy</a></li>
+              {/* <li><a href="#" className="hover:text-blue-400 transition-colors">Cancellation Policy</a></li>
+              <li><a href="#" className="hover:text-blue-400 transition-colors">Cookie Policy</a></li> */}
             </ul>
           </div>
           
           <div>
             <h4 className="text-white text-lg font-semibold mb-4">Contact Us</h4>
             <div className="space-y-4">
-              <div className="flex items-start">
+              {/* <div className="flex items-start">
                 <MapPin size={20} className="text-blue-500 shrink-0 mt-0.5 mr-2" />
                 <span>123 Business Avenue, Suite 100, San Francisco, CA 94107</span>
-              </div>
+              </div> */}
               <div className="flex items-center">
                 <Phone size={20} className="text-blue-500 shrink-0 mr-2" />
-                <a href="tel:+15551234567" className="hover:text-blue-400 transition-colors">+1 (555) 123-4567</a>
+                <a href="tel:+91 9654920139" className="hover:text-blue-400 transition-colors">+91 9654920139</a>
               </div>
               <div className="flex items-center">
                 <Mail size={20} className="text-blue-500 shrink-0 mr-2" />
-                <a href="mailto:info@openprep.ai" className="hover:text-blue-400 transition-colors">info@openprep.ai</a>
+                <a href="mailto:hello@openprep.academy" className="hover:text-blue-400 transition-colors">hello@openprep.academy</a>
               </div>
             </div>
           </div>

@@ -132,7 +132,7 @@ const Pricing = () => {
         </div>
         
         <div className="mt-12 text-center text-gray-700">
-          <p>All plans come with a 7-day money-back guarantee. No questions asked.</p>
+          <p>All plans come with a 5-day money-back guarantee. No questions asked.</p>
         </div>
       </div>
     </section>
