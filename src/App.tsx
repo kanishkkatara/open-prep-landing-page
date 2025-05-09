@@ -30,7 +30,7 @@ function App() {
             Join thousands of students who have improved their scores with Open Prep.
           </p>
           <a 
-            href="https://open-prep-fe.vercel.app/" 
+            href={import.meta.env.VITE_PLATFORM_URL} 
             className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
             target="_blank"
             rel="noopener noreferrer"

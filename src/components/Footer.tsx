@@ -44,7 +44,7 @@ const Footer = () => {
               <li><a href="#features" className="hover:text-blue-400 transition-colors">Features</a></li>
               <li><a href="#testimonials" className="hover:text-blue-400 transition-colors">Testimonials</a></li>
               <li><a href="#pricing" className="hover:text-blue-400 transition-colors">Pricing</a></li>
-              <li><a href="https://open-prep-fe.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">Login</a></li>
+              <li><a href={import.meta.env.VITE_PLATFORM_URL} target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">Login</a></li>
             </ul>
           </div>
           

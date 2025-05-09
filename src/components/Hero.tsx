@@ -22,7 +22,7 @@ const Hero = () => {
             
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
-                href="https://open-prep-fe.vercel.app/" 
+                href={import.meta.env.VITE_PLATFORM_URL} 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 text-center"

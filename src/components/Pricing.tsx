@@ -115,7 +115,7 @@ const Pricing = () => {
               
               <div className="px-6 sm:px-8 pb-8">
                 <a
-                  href="https://open-prep-fe.vercel.app/"
+                  href={import.meta.env.VITE_PLATFORM_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`block w-full py-3 px-6 rounded-lg text-center font-semibold transition-colors duration-300 ${

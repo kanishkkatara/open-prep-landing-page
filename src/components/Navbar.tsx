@@ -37,7 +37,7 @@ const Navbar = () => {
             <a href="#testimonials" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Testimonials</a>
             <a href="#pricing" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Pricing</a>
             <a 
-              href="https://open-prep-fe.vercel.app/" 
+              href={import.meta.env.VITE_PLATFORM_URL} 
               target="_blank"
               rel="noopener noreferrer"
               className={`px-5 py-2 rounded-lg ${
@@ -86,7 +86,7 @@ const Navbar = () => {
               Pricing
             </a>
             <a 
-              href="https://open-prep-fe.vercel.app/" 
+              href={import.meta.env.VITE_PLATFORM_URL} 
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-600 text-white hover:bg-blue-700 font-semibold py-3 px-4 rounded-lg text-center transition-colors"
