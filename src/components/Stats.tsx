@@ -18,7 +18,7 @@ const stats = [
   },
   {
     icon: <TrendingUp className="w-10 h-10 text-blue-600" />,
-    value: "120+",
+    value: "65+",
     label: "Avg. Point Improvement"
   }
 ];

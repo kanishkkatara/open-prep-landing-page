@@ -57,7 +57,7 @@ const Hero = () => {
                   <span className="text-xl font-bold">+</span>
                 </div>
                 <div>
-                  <p className="font-bold text-gray-900">120 Points</p>
+                  <p className="font-bold text-gray-900">68 Points</p>
                   <p className="text-sm text-gray-600">Avg. Score Improvement</p>
                 </div>
               </div>
