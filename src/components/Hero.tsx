@@ -43,7 +43,7 @@ const Hero = () => {
           <div className="lg:w-1/2 relative">
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden transform hover:scale-[1.02] transition-transform duration-500">
               <img 
-                src="https://images.pexels.com/photos/4145153/pexels-photo-4145153.jpeg" 
+                src="https://images.pexels.com/photos/4050466/pexels-photo-4050466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
                 alt="Student learning with AI tutor" 
                 className="w-full h-auto"
                 loading="eager"

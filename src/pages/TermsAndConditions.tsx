@@ -9,9 +9,9 @@ const TermsAndConditions: React.FC = () => (
     <section>
       <h2 className="text-xl font-semibold mt-4">1. Introduction</h2>
       <p>
-        Welcome to OpenPrep. These Terms &amp; Conditions ("Terms") govern your access to and use of
+        Welcome to Open Prep. These Terms &amp; Conditions ("Terms") govern your access to and use of
         our website and services located at <a href="https://openprep.academy" className="text-blue-600 hover:underline">https://openprep.academy</a>
-        (the "Site"), operated by OpenPrep Academy ("we", "us", or "our").
+        (the "Site"), operated by Open Prep Academy ("we", "us", or "our").
       </p>
     </section>
 
@@ -20,7 +20,7 @@ const TermsAndConditions: React.FC = () => (
       <h2 className="text-xl font-semibold mt-4">2. Educational Disclaimers</h2>
       <ul className="list-disc list-inside ml-4">
         <li>
-          <strong>No Guarantee of Results:</strong> OpenPrep provides practice questions, explanations,
+          <strong>No Guarantee of Results:</strong> Open Prep provides practice questions, explanations,
           and analytics to support your exam preparation. We do not guarantee any specific score improvement or exam outcome.
         </li>
         <li>
@@ -39,7 +39,7 @@ const TermsAndConditions: React.FC = () => (
         non-commercial purposes.
       </p>
       <p>
-        All content, trademarks, logos, and data on the Site are the property of OpenPrep Academy or its licensors.
+        All content, trademarks, logos, and data on the Site are the property of Open Prep Academy or its licensors.
         You agree not to copy, distribute, or create derivative works without express permission.
       </p>
     </section>
@@ -68,7 +68,7 @@ const TermsAndConditions: React.FC = () => (
     <section>
       <h2 className="text-xl font-semibold mt-4">6. Limitation of Liability</h2>
       <p>
-        To the fullest extent permitted by law, OpenPrep Academy’s liability for any claim related to the Site,
+        To the fullest extent permitted by law, Open Prep Academy’s liability for any claim related to the Site,
         content accuracy, or exam results is capped at the total subscription fees you paid in the 12 months prior
         to the claim.
       </p>
@@ -78,7 +78,7 @@ const TermsAndConditions: React.FC = () => (
     <section>
       <h2 className="text-xl font-semibold mt-4">7. Indemnification</h2>
       <p>
-        You agree to indemnify and hold harmless OpenPrep Academy and its affiliates from any claims, liabilities,
+        You agree to indemnify and hold harmless Open Prep Academy and its affiliates from any claims, liabilities,
         damages, or expenses arising out of your use of the Site or breach of these Terms.
       </p>
     </section>
