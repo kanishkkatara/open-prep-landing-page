@@ -1,18 +1,17 @@
-// src/components/Pricing.tsx
 import React from 'react';
 
 interface Plan {
   name: string;
-  price: number;            // discounted price for the billing period
-  strike: number;           // original price for the billing period
-  periodLabel: string;      // e.g., 'per month', 'per 6 months', 'per year'
+  price: number;
+  strike: number;
+  periodLabel: string;
   billingPeriodMonths: number;
   popular?: boolean;
 }
 
 const plans: Plan[] = [
   { name: 'Monthly',     price: 50,  strike: 200,  periodLabel: 'per month',    billingPeriodMonths: 1 },
-  { name: 'Semi-Annual', price: 250, strike: 1200, periodLabel: 'per 6 months', billingPeriodMonths: 6,   popular: true },
+  { name: 'Semi-Annual', price: 250, strike: 1200, periodLabel: 'per 6 months', billingPeriodMonths: 6, popular: true },
   { name: 'Annual',      price: 400, strike: 1600, periodLabel: 'per year',     billingPeriodMonths: 12 },
 ];
 
@@ -22,7 +21,36 @@ const Pricing: React.FC = () => (
       <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Choose Your Plan</h2>
     </div>
 
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+    <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
+
+      {/* Free Trial Card */}
+      <div className="relative flex flex-col bg-white border-2 border-green-500 rounded-xl p-8 shadow-md hover:shadow-xl transition-transform duration-300 hover:scale-[1.02]">
+        <div className="absolute top-0 right-0 bg-green-600 text-white text-xs font-bold uppercase tracking-wide py-1 px-3 rounded-bl-lg rounded-tr-lg">
+          Start Free
+        </div>
+
+        <div className="flex-grow text-center">
+          <h3 className="text-2xl font-bold text-gray-900 mb-2">5-Day Trial</h3>
+          <div className="text-5xl font-extrabold text-gray-900 mb-4">Free</div>
+          <ul className="mb-6 space-y-2 text-gray-700 text-sm">
+            <li>No card required.</li>
+            <li>Full platform access.</li>
+          </ul>
+        </div>
+
+        <div className="p-0">
+          <a
+            href={import.meta.env.VITE_PLATFORM_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full py-3 text-center font-semibold rounded-lg bg-green-600 hover:bg-green-700 text-white transition-colors duration-300"
+          >
+            Start Free Trial
+          </a>
+        </div>
+      </div>
+
+      {/* Paid Plans */}
       {plans.map((plan) => {
         const savingsPercent = Math.round((1 - plan.price / plan.strike) * 100);
         const monthlyCost = (plan.price / plan.billingPeriodMonths).toFixed(2);
@@ -30,13 +58,13 @@ const Pricing: React.FC = () => (
         return (
           <div
             key={plan.name}
-            className={`relative flex flex-col bg-white border-2 rounded-xl transition-transform duration-300
+            className={`relative flex flex-col bg-white border-2 rounded-xl transition-transform duration-300 hover:scale-[1.02]
               ${plan.popular
-                ? 'transform scale-105 border-blue-600 shadow-xl'
+                ? 'border-blue-600 shadow-xl'
                 : 'border-gray-200 shadow-md hover:shadow-xl'}`}
           >
             {plan.popular && (
-              <div className="absolute top-0 right-0 bg-blue-600 text-white text-xs font-bold uppercase tracking-wide py-1 px-3 rounded-bl-lg">
+              <div className="absolute top-0 right-0 bg-blue-600 text-white text-xs font-bold uppercase tracking-wide py-1 px-3 rounded-bl-lg rounded-tr-lg">
                 Most Popular
               </div>
             )}
