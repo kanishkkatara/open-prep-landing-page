@@ -30,7 +30,7 @@ const Stats = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Impact by the Numbers</h2>
           <p className="text-xl text-gray-700 max-w-2xl mx-auto">
-            Join thousands of successful students who have transformed their GMAT scores with Open Prep.
+            Join thousands of successful students who have transformed their GMAT scores with OpenPrep.
           </p>
         </div>
         

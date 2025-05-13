@@ -34,8 +34,7 @@ function LandingPage() {
             Ready to transform your GMAT journey?
           </h2>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto mb-8">
-            Join thousands of students who have improved their scores with Open
-            Prep.
+            Join thousands of students who have improved their scores with OpenPrep.
           </p>
           <a
             href={import.meta.env.VITE_PLATFORM_URL}

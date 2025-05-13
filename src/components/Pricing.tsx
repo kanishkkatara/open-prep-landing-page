@@ -24,7 +24,7 @@ const Pricing: React.FC = () => (
     <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
 
       {/* Free Trial Card */}
-      <div className="relative flex flex-col bg-white border-2 border-green-500 rounded-xl p-8 shadow-md hover:shadow-xl transition-transform duration-300 hover:scale-[1.02]">
+      <div className="relative flex flex-col bg-white border-2 border-green-600 rounded-xl p-8 shadow-md hover:shadow-xl transition-transform duration-300 hover:scale-[1.02]">
         <div className="absolute top-0 right-0 bg-green-600 text-white text-xs font-bold uppercase tracking-wide py-1 px-3 rounded-bl-lg rounded-tr-lg">
           Start Free
         </div>

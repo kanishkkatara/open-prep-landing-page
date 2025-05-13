@@ -50,7 +50,7 @@ const Features = () => {
     <section id="features" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Why Choose Open Prep?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Why Choose OpenPrep?</h2>
           <p className="text-xl text-gray-700 max-w-2xl mx-auto">
             Our AI-powered approach revolutionizes GMAT preparation with features designed for efficiency and results.
           </p>

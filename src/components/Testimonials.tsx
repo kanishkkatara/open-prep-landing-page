@@ -8,7 +8,7 @@ const testimonials = [
     position: "Harvard Business School, 2024",
     scoreImprovement: 130,
     image: "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg",
-    content: "Open Prep helped me boost my GMAT score by 130 points in just 6 weeks. The AI-powered approach identified my weak areas instantly that saved me countless hours.",
+    content: "OpenPrep helped me boost my GMAT score by 130 points in just 6 weeks. The AI-powered approach identified my weak areas instantly that saved me countless hours.",
     stars: 5
   },
   {
@@ -17,7 +17,7 @@ const testimonials = [
     position: "Wharton School, 2023",
     scoreImprovement: 120,
     image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
-    content: "After trying multiple prep courses without much improvement, Open Prep's adaptive learning system made all the difference. I improved my quant score from the 60th to the 90th percentile in just a month.",
+    content: "After trying multiple prep courses without much improvement, OpenPrep's adaptive learning system made all the difference. I improved my quant score from the 60th to the 90th percentile in just a month.",
     stars: 5
   },
   {
@@ -26,7 +26,7 @@ const testimonials = [
     position: "INSEAD, 2024",
     scoreImprovement: 140,
     image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg",
-    content: "The personalized approach of Open Prep is game-changing. Their AI tutor identified patterns in my mistakes that I couldn't see myself, allowing me to focus precisely on what I needed to improve.",
+    content: "The personalized approach of OpenPrep is game-changing. Their AI tutor identified patterns in my mistakes that I couldn't see myself, allowing me to focus precisely on what I needed to improve.",
     stars: 5
   },
   {
@@ -35,7 +35,7 @@ const testimonials = [
     position: "Stanford GSB, 2023",
     scoreImprovement: 110,
     image: "https://images.pexels.com/photos/1300402/pexels-photo-1300402.jpeg",
-    content: "I was skeptical about AI tutoring at first, but Open Prep exceeded my expectations. The platform adapted to my learning style and schedule, making my prep much more efficient than traditional methods.",
+    content: "I was skeptical about AI tutoring at first, but OpenPrep exceeded my expectations. The platform adapted to my learning style and schedule, making my prep much more efficient than traditional methods.",
     stars: 4
   },
   // {
@@ -43,7 +43,7 @@ const testimonials = [
   //   name: "Sarah Johnson",
   //   position: "Columbia Business School, 2024",
   //   image: "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg",
-  //   content: "Open Prep transformed my GMAT journey. The analytics provided clear insights into my progress, and the adaptive question bank ensured I was always challenged at the right level.",
+  //   content: "OpenPrep transformed my GMAT journey. The analytics provided clear insights into my progress, and the adaptive question bank ensured I was always challenged at the right level.",
   //   stars: 5
   // },
   // {
@@ -51,7 +51,7 @@ const testimonials = [
   //   name: "Omar Hamad",
   //   position: "London Business School, 2023",
   //   image: "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg",
-  //   content: "As someone with a busy work schedule, Open Prep's time-efficient approach was exactly what I needed. I achieved my target score while studying just 1-2 hours daily.",
+  //   content: "As someone with a busy work schedule, OpenPrep's time-efficient approach was exactly what I needed. I achieved my target score while studying just 1-2 hours daily.",
   //   stars: 5
   // }
 ];
@@ -119,7 +119,7 @@ const Testimonials = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">What Our Students Say</h2>
           <p className="text-xl text-gray-700 max-w-2xl mx-auto">
-            Hear from students who transformed their GMAT journey with Open Prep.
+            Hear from students who transformed their GMAT journey with OpenPrep.
           </p>
         </div>
         

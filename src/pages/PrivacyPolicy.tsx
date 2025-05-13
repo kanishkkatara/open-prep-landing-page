@@ -9,7 +9,7 @@ const PrivacyPolicy: React.FC = () => (
     <section>
       <h2 className="text-xl font-semibold mt-4">1. Introduction</h2>
       <p>
-        Open Prep Academy values your privacy. This Privacy Policy explains how we collect, use, and disclose personal
+        OpenPrep Academy values your privacy. This Privacy Policy explains how we collect, use, and disclose personal
         information when you visit or sign up on <a href="https://openprep.academy" className="text-blue-600 hover:underline">https://openprep.academy</a>.
       </p>
     </section>

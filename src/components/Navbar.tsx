@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <a href="#" className="flex items-center gap-2">
             <BookOpen size={28} className="text-blue-600" />
-            <span className="text-xl font-bold text-gray-900">Open Prep</span>
+            <span className="text-xl font-bold text-gray-900">OpenPrep</span>
           </a>
           
           {/* Desktop Navigation */}

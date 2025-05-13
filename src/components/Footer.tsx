@@ -8,7 +8,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <BookOpen size={28} className="text-blue-500" />
-              <span className="text-xl font-bold text-white">Open Prep</span>
+              <span className="text-xl font-bold text-white">OpenPrep</span>
             </div>
             <p className="mb-6">
               Our AI-powered GMAT tutoring helps you achieve your target score with personalized, efficient learning.
@@ -79,7 +79,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-800 pt-8 text-center">
-          <p>&copy; {new Date().getFullYear()} Open Prep. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} OpenPrep. All rights reserved.</p>
         </div>
       </div>
     </footer>
