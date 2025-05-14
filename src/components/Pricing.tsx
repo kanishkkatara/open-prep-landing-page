@@ -10,9 +10,9 @@ interface Plan {
 }
 
 const plans: Plan[] = [
-  { name: 'Monthly',     price: 50,  strike: 200,  periodLabel: 'per month',    billingPeriodMonths: 1 },
-  { name: 'Semi-Annual', price: 250, strike: 1200, periodLabel: 'per 6 months', billingPeriodMonths: 6, popular: true },
-  { name: 'Annual',      price: 400, strike: 1600, periodLabel: 'per year',     billingPeriodMonths: 12 },
+  { name: 'Monthly',     price: 20,  strike: 200,  periodLabel: 'per month',    billingPeriodMonths: 1 },
+  { name: 'Semi-Annual', price: 100, strike: 1200, periodLabel: 'per 6 months', billingPeriodMonths: 6, popular: true },
+  { name: 'Annual',      price: 150, strike: 1600, periodLabel: 'per year',     billingPeriodMonths: 12 },
 ];
 
 const Pricing: React.FC = () => (
